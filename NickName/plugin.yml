@@ -1,0 +1,16 @@
+name: NickName-PMExperts
+main: NickName\NickName
+api:
+- 3.0.0
+- 4.0.0
+version: 1.0
+author: PMExperts
+#TeamTuranic #PMExperts
+
+commands:
+ nickname:
+  usage: "/nickname <nickname>"
+  description: "change your nickname"
+ nick:
+   usage: "/nickname <nickname>"
+   description: "change your nickname"
