@@ -1,0 +1,16 @@
+name: Vanish
+main: Vanish\Vanish
+api:
+- 3.0.0
+- 4.0.0
+version: 1.0
+author: PMExperts
+#TeamTuranic #PMExperts
+
+commands:
+ vanish:
+  description: "vanish command"
+  usage: "/vanish <on/off>"
+ v:
+  description: "vanish command"
+  usage: "/vanish <on/off>"
