@@ -10,9 +10,11 @@ commands:
  nickname:
   usage: "/nickname <nickname>"
   description: "change your nickname"
+  permission: nickcommand.nick
  nick:
    usage: "/nickname <nickname>"
    description: "change your nickname"
+   permission: nickcommand.nick
 
 permission:
   nickcommand.nick:
