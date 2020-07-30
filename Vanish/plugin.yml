@@ -8,9 +8,16 @@ author: PMExperts
 #TeamTuranic #PMExperts
 
 commands:
- vanish:
-  description: "vanish command"
-  usage: "/vanish <on/off>"
- v:
-  description: "vanish command"
-  usage: "/vanish <on/off>"
+  vanish:
+    description: "Vanish command"
+    usage: "/vanish <on/off>"
+    permission: vanish.command
+  v:
+    description: "Vanish command"
+    usage: "/vanish <on/off>"
+    permission: vanish.command
+
+permission:
+  vanish.command:
+    default: op
+    description: "Permission for vanish command"
